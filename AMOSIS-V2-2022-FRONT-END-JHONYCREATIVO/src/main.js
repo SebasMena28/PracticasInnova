@@ -25,6 +25,7 @@ const options = {
     // You can set your default options here
 };
 
+
 app.use(Toast, options);
 app.component("jc-aside", JcAside);
 app.component("jc-nav", JcNav);
